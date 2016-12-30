@@ -1,12 +1,13 @@
 # HOW TO USE SNOW PLUGIN
 
 Add page head tag 
-
+<pre>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="snow.js"></script>
+</pre>
 
 # AFTER ADD FOOTER
-
+<pre>
 <script type="text/javascript">
     $(document).ready(function() {
     $.fn.snow({
@@ -17,3 +18,4 @@ Add page head tag
         });
     });
 </script>
+</pre>
