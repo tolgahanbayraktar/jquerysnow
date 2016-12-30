@@ -1,12 +1,14 @@
-# HOW TO USE SNOW PLUGIN
+# Installing
 
-Add page head tag 
+Simple! Fork this repo or download snow.js and jquery.min.js and add the following assets to your HTML:
+
 <pre>
-script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
-snow.js
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="snow.js"></script>
 </pre>
 
-# AFTER ADD FOOTER
+# Running
+Once you have your elements ready you can show instructions running
 <pre>
 	$(document).ready(function() {
 	$.fn.snow({
